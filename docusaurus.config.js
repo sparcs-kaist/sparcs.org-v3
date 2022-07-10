@@ -51,10 +51,12 @@ const config = {
   plugins: [
     [
       "@docusaurus/plugin-content-docs",
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
       {
         id: "seminars",
         path: "seminars",
         routeBasePath: "seminars",
+        numberPrefixParser: false,
       },
     ],
   ],
