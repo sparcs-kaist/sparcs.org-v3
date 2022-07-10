@@ -116,6 +116,10 @@ const config = {
             title: "서비스",
             items: [
               {
+                label: "Geoul",
+                href: "http://ftp.kaist.ac.kr/",
+              },
+              {
                 label: "NewAra",
                 href: "https://newara.sparcs.org",
               },
