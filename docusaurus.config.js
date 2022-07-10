@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "SPARCS",
-  tagline: "Dinosaurs are cool",
+  tagline: `System Programmers’ Association for Researching Computer Systems`,
   url: "https://sparcs.sboh.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -48,6 +48,17 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "seminars",
+        path: "seminars",
+        routeBasePath: "seminars",
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -63,9 +74,15 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Projects",
+            label: "소개",
           },
-          { to: "/blog", label: "Seminar", position: "left" },
+          {
+            to: "seminars/intro",
+            activeBasePath: "seminars",
+            position: "left",
+            label: "세미나",
+          },
+          { to: "/blog", label: "블로그", position: "left" },
           {
             href: "https://github.com/sparcs-kaist",
             label: "GitHub",
@@ -105,6 +122,10 @@ const config = {
                 href: "https://otl.kaist.ac.kr",
               },
               {
+                label: "SSO",
+                href: "https://sparcssso.kaist.ac.kr",
+              },
+              {
                 label: "Zabo",
                 href: "https://zabo.sparcs.org",
               },
@@ -131,8 +152,20 @@ const config = {
             title: "회원 전용",
             items: [
               {
+                label: "Biseo",
+                to: "https://biseo.sparcs.org",
+              },
+              {
                 label: "Memvers",
                 to: "https://memvers.sparcs.org",
+              },
+              {
+                label: "Vault",
+                to: "https://secret.sparcs.org",
+              },
+              {
+                label: "Wiki",
+                to: "https://wiki.sparcs.org",
               },
             ],
           },
