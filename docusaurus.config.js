@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "SPARCS",
   tagline: `System Programmers’ Association for Researching Computer Systems`,
-  url: "https://sparcs.sboh.dev",
+  url: "https://sparcs.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -19,7 +19,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "ko",
-    locales: ["ko", "en"],
+    locales: ["ko"],
   },
 
   presets: [
@@ -32,14 +32,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -57,6 +57,7 @@ const config = {
         path: "seminars",
         routeBasePath: "seminars",
         numberPrefixParser: false,
+        editUrl: "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/seminars",
       },
     ],
   ],
