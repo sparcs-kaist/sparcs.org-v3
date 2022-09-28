@@ -1,5 +1,7 @@
 # 2018 Spring Newbie Seminar
 
+## 목록
+
 ### 1. Intro to SPARCS
 
 by leo / at 2018-03-13

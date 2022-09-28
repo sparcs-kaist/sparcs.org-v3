@@ -1,5 +1,7 @@
 # 2021 Spring Newbie Seminar
 
+## 목록
+
 ### Linux
 
 by Triangle / at 2021-03-21

@@ -1,5 +1,7 @@
 # 2020 Spring Newbie Seminar
 
+## 목록
+
 ### Linux System
 
 by nenw / at 2020-04-19
