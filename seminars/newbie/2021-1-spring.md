@@ -1,6 +1,6 @@
 # 2021 Spring Newbie Seminar
 
-## Web Full Stack
+## 목록
 
 ### Linux
 
@@ -31,16 +31,3 @@ by jungnoh / at 2021-05-09
 
 by ivy / at 2021-05-16
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/ivy_1621170099544.pdf)
-
-## Design
-
-### 01. UIUX101
-
-by cheddar / at 2021-04-28
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/cheddar_1619675832524.pdf)
-
-### 02. Branding & Tools
-
-by cheddar / at 2021-05-08
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/cheddar_1620975567299.pdf)
-[Figma Exercise](https://www.figma.com/file/8MPzS5Q3MQwnDrTOynkpcm/SPARCS-newbie-designer-seminar?node-id=0%3A1)
