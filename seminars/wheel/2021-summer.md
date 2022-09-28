@@ -1,0 +1,63 @@
+# 2021 Summer Wheel Seminar
+
+## 목록
+
+### 1. AWS
+
+by platypus / at 2021-07-15
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/platypus_1628883481027.pdf)
+
+### 2. Linux
+
+by suwon / at 2021-07-16
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1628883546267.pdf)
+
+### 3. Shell script, cron
+
+by jaydub / at 2021-07-17
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/jaydub_1628883571127.pdf)
+
+### 4. File system & Physical Disk + Appendix 1. booting
+
+by night / at 2021-07-20
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/night_1628883604219.pdf)
+
+### 5. Database
+
+by ivy / at 2021-07-21
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/ivy_1628883639103.pdf)
+
+### 6. Virtualization & Docker
+
+by triangle / at 2021-07-22
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/triangle_1628883655946.pdf)
+
+### 7. Security
+
+by jungnoh / at 2021-07-23
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/jungnoh_1628883674016.pdf)
+
+### 8. Backup & Emergency
+
+by suwon / at 2021-07-24
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1628883693658.pdf)
+
+### 9. LDAP
+
+by night / at 2021-07-27
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/night_1628883711243.pdf)
+
+### 10. Network & DNS
+
+by jaydub / at 2021-07-28
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/jaydub_1628883752623.pdf)
+
+### 11. Network, Nginx
+
+by triangle / at 2021-07-29
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/triangle_1628883864435.pdf)
+
+### Appendix 2. mail
+
+by triangle / at 2021-07-29
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/triangle_1628883875562.pdf)
