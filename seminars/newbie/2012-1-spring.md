@@ -1,3 +1,5 @@
+# 2012 Spring Newbie Seminar
+
 ### 1. Introduction to SPARCS
 
 by kuss / at 2012-02-21

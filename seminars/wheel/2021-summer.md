@@ -1,3 +1,7 @@
+# 2021 Summer Wheel Seminar
+
+## 목록
+
 ### 1. AWS
 
 by platypus / at 2021-07-15
@@ -13,9 +17,7 @@ by suwon / at 2021-07-16
 by jaydub / at 2021-07-17
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/jaydub_1628883571127.pdf)
 
-### 4. File system & Physical Disk + Appendix
-
-      1. booting
+### 4. File system & Physical Disk + Appendix 1. booting
 
 by night / at 2021-07-20
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/night_1628883604219.pdf)

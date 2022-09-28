@@ -1,7 +1,5 @@
 # 2022 Spring Newbie Seminar
 
-## 2022 Fall Newbie Seminar
-
 ### Linux, Whale
 
 by triangle / at 2022-03-13
@@ -36,15 +34,3 @@ by night / at 2022-05-01
 
 by jessie / at 2022-05-01
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/jessie_1657514780580.pdf)
-
-## 2022 Spring Newbie Project
-
-### Intern Presentation (KAISTUA)
-
-by scotch / at 2022-05-30
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/scotch_1659942755016.pdf)
-
-### Intern Presentation (Taxi)
-
-by andy / at 2022-05-30
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/andy_1659942777418.pptx)

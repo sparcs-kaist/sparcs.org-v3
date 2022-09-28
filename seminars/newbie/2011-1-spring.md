@@ -1,3 +1,5 @@
+# 2011 Spring Newbie Seminar
+
 ### 1.Introduction to SPARCS
 
 by zzongaly / at 2011-02-21
@@ -66,32 +68,32 @@ by zzongaly / at 2011-06-13
 
 ## Django Seminar
 
-### \#1: 웹 개발을 위한 기초 파이썬
+### 1. 웹 개발을 위한 기초 파이썬
 
 by snogar / at 2011-03-04
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110304-1.pptx)
 
-### \#2: 장고를 소개합니다
+### 2. 장고를 소개합니다
 
 by snogar / at 2011-03-11
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110311-1.pptx)
 
-### \#3: Model
+### 3. Model
 
 by snogar / at 2011-04-13
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110413-1.pptx)
 
-### \#4: Settings and Views
+### 4. Settings and Views
 
 by snogar / at 2011-04-28
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110428-1.pptx)
 
-### \#5: Views and Templates
+### 5. Views and Templates
 
 by snogar / at 2011-04-29
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110429-1.pptx)
 
-### \#6: Login System
+### 6. Login System
 
 by snogar / at 2011-05-09
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110509-1.pptx)

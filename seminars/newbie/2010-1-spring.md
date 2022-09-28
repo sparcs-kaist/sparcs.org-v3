@@ -1,3 +1,5 @@
+# 2010 Spring Newbie Seminar
+
 ### 신입생 세미나#4 - VIM Seminar
 
 by alex / at 2010-02-27
