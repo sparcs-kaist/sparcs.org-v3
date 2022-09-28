@@ -41,61 +41,6 @@ by noname / at 2011-02-25
 by wiki / at 2011-04-10
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/wiki-20110512-1.pptx)
 
-### Django #1: 웹 개발을 위한 기초 파이썬
-
-by snogar / at 2011-03-04
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110304-1.pptx)
-
-### Django #2: 장고를 소개합니다
-
-by snogar / at 2011-03-11
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110311-1.pptx)
-
-### Django #3: Model
-
-by snogar / at 2011-04-13
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110413-1.pptx)
-
-### Django #4: Settings and Views
-
-by snogar / at 2011-04-28
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110428-1.pptx)
-
-### Django #5: Views and Templates
-
-by snogar / at 2011-04-29
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110429-1.pptx)
-
-### Django #6: Login System
-
-by snogar / at 2011-05-09
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110509-1.pptx)
-
-### CSS #1
-
-by hodduc / at 2011-05-04
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20110504-1.pptx)
-
-### CSS #2
-
-by hodduc / at 2011-05-04
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20110504_1-1.pptx)
-
-### 모바일 웹 세미나 #1
-
-by peremen / at 2011-04-16
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/peremen-20110425-1.pptx)
-
-### 모바일 웹 세미나 #2
-
-by peremen / at 2011-04-23
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/peremen-20110425_1-1.pptx)
-
-### 모바일 웹 세미나 #4 + a
-
-by peremen / at 2011-05-08
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/peremen-20110508-1.pptx)
-
 ### 네트워크 컨커런시 leeopop-20110228
 
 by leeopop / at 2011-02-28
@@ -119,17 +64,80 @@ by zzongaly / at 2011-06-13
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/zzongaly-20110613.pptx)
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/zzongaly-20110613.pdf)
 
-### 2011 자바 세미나 - 1. 문법 구조 및 클래스 기초
+## Django Seminar
+
+### \#1: 웹 개발을 위한 기초 파이썬
+
+by snogar / at 2011-03-04
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110304-1.pptx)
+
+### \#2: 장고를 소개합니다
+
+by snogar / at 2011-03-11
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110311-1.pptx)
+
+### \#3: Model
+
+by snogar / at 2011-04-13
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110413-1.pptx)
+
+### \#4: Settings and Views
+
+by snogar / at 2011-04-28
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110428-1.pptx)
+
+### \#5: Views and Templates
+
+by snogar / at 2011-04-29
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110429-1.pptx)
+
+### \#6: Login System
+
+by snogar / at 2011-05-09
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/snogar-20110509-1.pptx)
+
+## CSS Seminar
+
+### \#1
+
+by hodduc / at 2011-05-04
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20110504-1.pptx)
+
+### \#2
+
+by hodduc / at 2011-05-04
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20110504_1-1.pptx)
+
+## 모바일 웹 세미나
+
+### \#1
+
+by peremen / at 2011-04-16
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/peremen-20110425-1.pptx)
+
+### \#2
+
+by peremen / at 2011-04-23
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/peremen-20110425_1-1.pptx)
+
+### \#4 + a
+
+by peremen / at 2011-05-08
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/peremen-20110508-1.pptx)
+
+## Java Seminar
+
+### 문법 구조 및 클래스 기초
 
 by leeopop / at 2011-04-10
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/leeopop-20110410-1.pdf)
 
-### 눈이 편안한 자바 세미나 - 정규식
+### 정규식
 
 by leeopop / at 2011-06-08
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/leeopop-20110608-1.pdf)
 
-### 눈이 편안한 자바 세미나 - 스트림
+### 스트림
 
 by leeopop / at 2011-06-14
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/leeopop-20110614-1.pdf)

@@ -41,35 +41,39 @@ by boolgom / at 2012-03-13
 by rodumani / at 2012-03-13
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/rodumani-20120406-1.pdf)
 
-### 2012 신입생 세미나(JAVA) OOP
+### HTML-CSS 겉핥기
+
+by panda / at 2012-06-19
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/panda-20120619.pptx)
+
+## JAVA Seminar
+
+### OOP
 
 by rodumani / at 2012-04-20
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/rodumani-20140330-0.pptx)
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/rodumani-20140330-1.pptx)
 
-### 2012 신입생 세미나(JAVA) 2주차 network, proxy
+### 2주차 network, proxy
 
 by leeopop / at 2012-04-26
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/leeopop-20120426-1.pdf)
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/leeopop-20120426-2.pdf)
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/leeopop-20120426-3.zip)
 
-### 호떡의 장고세미나 - 1
+## 호떡의 장고세미나
+
+### 1
 
 by hodduc / at 2012-06-18
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20120618-1.pptx)
 
-### 호떡의 장고세미나 - 2
+### 2
 
 by hodduc / at 2012-06-20
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20120620-1.pdf)
 
-### 호떡의 장고세미나 - 3
+### 3
 
 by hodduc / at 2012-06-25
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/hodduc-20120627-1.pptx)
-
-### HTML-CSS 겉핥기
-
-by panda / at 2012-06-19
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/panda-20120619.pptx)

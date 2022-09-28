@@ -70,43 +70,40 @@ by daybreaker / at 2010-06-07
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/daybreaker-20100607-1.pdf)
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/daybreaker-20100607-2.pptx)
 
-### Combacsa’s SPARCS Web Seminar #1. SE, Agile, XP
-
-by combacsa / at 2010-06-09
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100609-1.ppt)
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100609-2.pptx)
-
-### Combacsa’s SPARCS Web Seminar #2. Test-Driven Development
-
-by combacsa / at 2010-06-09
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100610-1.ppt)
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100610-2.pptx)
-
-### Combacsa’s SPARCS Web Seminar #3. xUnit Framework and Testing Tools
-
-by combacsa / at 2010-06-12
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612-1.ppt)
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612-2.pptx)
-
-### Combacsa’s SPARCS Web Seminar #4. Scrum
-
-by combacsa / at 2010-06-12
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612_1-1.ppt)
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612_1-2.pptx)
-
-### Combacsa’s SPARCS Web Seminar #5. Version Control System
-
-by combacsa / at 2010-06-12
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100712-1.ppt)
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100712-2.pptx)
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100712-3.pdf)
-
 ### jQuery Tutorial
 
 by breadfish / at 2010-06-10
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/breadfish-20100610-1.ppt)
 
-### Vim Seminar
+## Combacsa’s SPARCS Web Seminar
 
-by mazorro / at 2010-11-08
-[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/mazorro-20101108-1.pptx)
+### \#1. SE, Agile, XP
+
+by combacsa / at 2010-06-09
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100609-1.ppt)
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100609-2.pptx)
+
+### \#2. Test-Driven Development
+
+by combacsa / at 2010-06-09
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100610-1.ppt)
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100610-2.pptx)
+
+### \#3. xUnit Framework and Testing Tools
+
+by combacsa / at 2010-06-12
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612-1.ppt)
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612-2.pptx)
+
+### \#4. Scrum
+
+by combacsa / at 2010-06-12
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612_1-1.ppt)
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100612_1-2.pptx)
+
+### \#5. Version Control System
+
+by combacsa / at 2010-06-12
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100712-1.ppt)
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100712-2.pptx)
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/combacsa-20100712-3.pdf)
