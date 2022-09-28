@@ -73,3 +73,9 @@ by nenw / at 2021-01-11
 
 by ivy / at 2021-01-22
 [PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/ivy_1611408129799.pdf)
+
+### 22. Wheel Seminar-08.Other Administrative Tasks
+
+by anna418 / at 2009-07-08
+
+[PDF](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/seminars/anna418-20090708-1.pptx)
