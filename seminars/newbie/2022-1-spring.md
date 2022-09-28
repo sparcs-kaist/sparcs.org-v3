@@ -1,5 +1,7 @@
 # 2022 Spring Newbie Seminar
 
+## 목록
+
 ### Linux, Whale
 
 by triangle / at 2022-03-13
