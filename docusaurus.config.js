@@ -4,6 +4,20 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+// Reverse the sidebar items ordering (including nested category items)
+function reverseSidebarItems(items) {
+  // Reverse items in categories
+  const result = items.map((item) => {
+    if (item.type === "category") {
+      return { ...item, items: reverseSidebarItems(item.items) };
+    }
+    return item;
+  });
+  // Reverse items at current level
+  result.reverse();
+  return result;
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "SPARCS",
@@ -59,6 +73,15 @@ const config = {
         numberPrefixParser: false,
         editUrl:
           "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/seminars",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
+          const sidebarItems = await defaultSidebarItemsGenerator(args);
+          return reverseSidebarItems(sidebarItems);
+        },
       },
     ],
   ],
@@ -185,34 +208,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
-
-// Reverse the sidebar items ordering (including nested category items)
-function reverseSidebarItems(items) {
-  // Reverse items in categories
-  const result = items.map((item) => {
-    if (item.type === "category") {
-      return { ...item, items: reverseSidebarItems(item.items) };
-    }
-    return item;
-  });
-  // Reverse items at current level
-  result.reverse();
-  return result;
-}
-
-module.exports = {
-  plugins: [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
-          const sidebarItems = await defaultSidebarItemsGenerator(args);
-          return reverseSidebarItems(sidebarItems);
-        },
-      },
-    ],
-  ],
 };
 
 module.exports = config;
