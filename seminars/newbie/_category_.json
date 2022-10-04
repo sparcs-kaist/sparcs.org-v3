@@ -2,7 +2,7 @@
   "label": "신입생 세미나",
   "position": 1,
   "link": {
-    "type": "seminar",
+    "type": "generated-index",
     "description": "SPARCS에 매 학기 새로 들어온 준회원 분들을 위한 세미나입니다."
   }
 }

@@ -2,7 +2,7 @@
   "label": "휠 세미나",
   "position": 3,
   "link": {
-    "type": "seminar",
+    "type": "generated-index",
     "description": "SPARCS의 자원을 관리할 수 있는 Wheel 자격을 얻기 위한 세미나입니다."
   }
 }

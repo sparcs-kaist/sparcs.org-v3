@@ -191,7 +191,7 @@ const config = {
 function reverseSidebarItems(items) {
   // Reverse items in categories
   const result = items.map((item) => {
-    if (item.type === "seminar") {
+    if (item.type === "category") {
       return { ...item, items: reverseSidebarItems(item.items) };
     }
     return item;
