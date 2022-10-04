@@ -1,8 +1,8 @@
 {
   "label": "다자인 세미나",
-  "position": 4,
+  "position": 2,
   "link": {
-    "type": "generated-index",
+    "type": "seminar",
     "description": "디자인과 관련이 있는 세미나 입니다."
   }
 }
