@@ -57,7 +57,19 @@ const config = {
         path: "seminars",
         routeBasePath: "seminars",
         numberPrefixParser: false,
-        editUrl: "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/seminars",
+        editUrl:
+          "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/seminars",
+        async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
+          const sidebarItems = await defaultSidebarItemsGenerator(args);
+          // Reverse items in categories
+          const result = sidebarItems.map((item) => {
+            if (item.type === "category") {
+              return { ...item, items: item.items.reverse() };
+            }
+            return item;
+          });
+          return result;
+        },
       },
     ],
   ],
