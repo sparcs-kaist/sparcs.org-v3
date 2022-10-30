@@ -1,23 +1,11 @@
 platypus:
-  name: Seungbin Oh
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+  name: 오승빈 (platypus)
+  title: President in 2022
+  url: https://github.com/sboh1214
+  image_url: https://github.com/sboh1214.png
 
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+jaydub:
+  name: 이진우 (jaydub)
+  title: 필요하면 만들어 쓴다!
+  url: https://github.com/GrasshopperBears
+  image_url: https://github.com/GrasshopperBears.png
