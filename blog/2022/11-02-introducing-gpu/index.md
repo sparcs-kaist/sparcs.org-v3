@@ -1,6 +1,6 @@
 ---
 slug: introducing-gpu
-author: scotch
+authors: scotch
 ---
 
 # GPU와 GPGPU 알아보기
