@@ -1,5 +1,4 @@
 ---
-slug: i-used-amplify-but-should-you
 authors: prion
 ---
 

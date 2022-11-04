@@ -1,5 +1,4 @@
 ---
-slug: nextjs-for-faster-page-rendering
 authors: jaydub
 ---
 
