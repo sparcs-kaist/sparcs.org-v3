@@ -1,5 +1,4 @@
 ---
-slug: introducing-gpu
 authors: scotch
 ---
 
