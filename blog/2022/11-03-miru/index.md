@@ -1,5 +1,6 @@
 ---
 authors: miru
+slug: how-to-use-websocket
 ---
 
 # 소켓 통신, Socket.IO

@@ -31,15 +31,12 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/docs",
+          editUrl: "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/blog",
+          editUrl: "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main",
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -57,8 +54,7 @@ const config = {
         path: "seminars",
         routeBasePath: "seminars",
         numberPrefixParser: false,
-        editUrl:
-          "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main/seminars",
+        editUrl: "https://github.com/sparcs-kaist/sparcs.org-v3/tree/main",
         async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
           const sidebarItems = await defaultSidebarItemsGenerator(args);
           // Reverse items in categories
