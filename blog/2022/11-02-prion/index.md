@@ -1,5 +1,6 @@
 ---
 authors: prion
+slug: i-used-amplify-but-should-you
 ---
 
 # 다사다난했던 AWS Amplify 배포 : 과연 옳은 선택일까?

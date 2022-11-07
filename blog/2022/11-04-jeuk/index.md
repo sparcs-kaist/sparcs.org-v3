@@ -1,5 +1,6 @@
 ---
 authors: jeuk
+slug: asynchronous-programming-for-those-tired-of-waiting
 ---
 
 # 기다림에 지친 그대에게: 비동기 프로그래밍
