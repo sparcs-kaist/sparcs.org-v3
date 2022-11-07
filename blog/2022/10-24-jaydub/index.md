@@ -1,5 +1,6 @@
 ---
 authors: jaydub
+slug: nextjs-for-faster-page-rendering
 ---
 
 # Next.js: 더 빠른 페이지를 위해서
