@@ -22,6 +22,12 @@ scotch:
   url: https://github.com/paisano55
   image_url: https://github.com/paisano55.png
 
+retro:
+  name: 최상아 (retro)
+  title: 백엔드 개발자
+  url: https://github.com/retroinspect
+  image_url: https://github.com/retroinspect.png
+
 miru:
   name: 장하준 (miru)
   title: 새로운 것을 만들며 배웁니다.
