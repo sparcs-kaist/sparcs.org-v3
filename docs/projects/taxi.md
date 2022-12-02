@@ -1,7 +1,7 @@
 # Taxi
 
 <a href="https://taxi.sparcs.org/">
-  <img src="/projects/taxi/logo.svg" width="400" alt="Taxi @ SPARCS" />
+  <img src="/projects/ServiceTaxi.svg" width="400" alt="Taxi @ SPARCS" />
 </a>
 
 ## 서비스 소개
