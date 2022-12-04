@@ -5,7 +5,7 @@ slug: ci-cd
 
 # 제목
 
-안녕하세요. SPARCS에서 2021년에는 front 개발자로, 2022년에는 PM으로 활동하고 있는 김건(suwon)입니다.
+안녕하세요. SPARCS에서 2021년에는 Taxi팀의 front 개발자로, 2022년에는 PM으로 활동하고 있는 김건(suwon)입니다.
 
 ## CI (Continuous Integration)
 
@@ -27,4 +27,18 @@ slug: ci-cd
 
 ## Taxi의 CI/CD
 
+SPARCS의 [Taxi Project](/docs/projects/taxi) 역시 CI/CD 파이프라인을 가지고 있습니다. (2022-12-04 작성 당시의) 이 구조에 대해 간단히 설명드리고자 합니다.
+
 ![image-20221204221254055](./taxi_deploy.png)
+
+- main으로 머지되는 PR이 열리면 Front(react)의 코드에 대해서는 자동으로 Cypress를 사용한 E2E Test를 진행하며, Back(node express)의 코드에 대해서는 Mocha를 사용하여 Unit Test를 진행합니다. 만약 이 단계에서 빌드나 테스트가 실패한다면 main 브랜치로 merge 할 수 없습니다. (참고: [test_ci.yml](https://github.com/sparcs-kaist/taxi-back/blob/f76afb1c0967e79315bb4e7b6bb05d7ccde8ecb5/.github/workflows/test_ci.yml))
+
+- main으로 코드가 merge가 되면 main 브랜치에 대해서 자동으로 [Github release](https://github.com/sparcs-kaist/taxi-back/releases)를 만들며 이 때 사용하는 tag를 이전 버전보다 높게 만들어 사용합니다. (참고: [create_release_tag.yml](https://github.com/sparcs-kaist/taxi-back/blob/f76afb1c0967e79315bb4e7b6bb05d7ccde8ecb5/.github/workflows/create_release_tag.yml))
+
+- main의 코드를 서비스에 사용할 수 있는 Docker 이미지로 자동으로 빌드합니다. 빌드된 Docker 이미지에는 위에서 release에 사용한 tag와 latest tag가 붙여집니다. 그리고 빌드된 이미지를 자동으로 Taxi의 AWS ECR repository에 push합니다. (참고: [push_image_ecr.yml](https://github.com/sparcs-kaist/taxi-back/blob/f76afb1c0967e79315bb4e7b6bb05d7ccde8ecb5/.github/workflows/push_image_ecr.yml))
+
+- 채널톡 서버에서 실행 중인 도커 컨테이너인 [taxi-watchtower](https://containrrr.dev/watchtower/)는 이미지의 업데이트를 자동으로 감지합니다. 업데이트된 이미지를 pull 받아오며 이 이미지를 사용하여 taxi-front와 taxi-back 컨테이너를 업데이트 합니다.
+
+아직까지는 무중단 배포가 아니기에 taxi 서비스는 새벽 4시에만 업데이트가 진행되도록 설정되어 있습니다. 보안점을 조언해주시거나 궁금한 점이 있으시다면 SPARCS 슬랙 DM으로 편하게 연락주세요.
+
+긴 글 읽어주셔서 감사합니다.!!
