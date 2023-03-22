@@ -42,3 +42,13 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### TODO
+- contact(sparcs.kaist@gmail.com) 빠짐
+- 멤버 소개 빠짐
+- 여러 활동 사진 빠짐
+- 대내외 해커톤 소개 빠짐
+- Vault 지우기
+- OTL PLUS 등 소개 수정하기
+- 영어 번역 추가하기
+- 세칙에 일자 추가하기
