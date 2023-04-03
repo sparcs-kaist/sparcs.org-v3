@@ -1,6 +1,6 @@
 # SPARCS Homepage v3
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4470ab59-e8b9-4b3f-ba32-e21d90f28fe3/deploy-status)](https://app.netlify.com/sites/sparcs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28ba6a4f-baed-4dc8-96a4-2650472b06d5/deploy-status)](https://app.netlify.com/sites/sparcs/deploys)
 [![CI](https://github.com/sparcs-kaist/sparcs.org-v3/actions/workflows/ci.yml/badge.svg)](https://github.com/sparcs-kaist/sparcs.org-v3/actions/workflows/ci.yml)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
@@ -29,21 +29,17 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
+We are currently using Netlify. The website is automatically deployed when a commit is pushed to the `main` branch.
 
-```
-$ USE_SSH=true yarn deploy
-```
+If you want to deploy the website manually, run the following command:
 
-Not using SSH:
-
+```sh
+npm run build
+npm run deploy
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 ### TODO
+
 - contact(sparcs.kaist@gmail.com) 빠짐
 - 멤버 소개 빠짐
 - 여러 활동 사진 빠짐
