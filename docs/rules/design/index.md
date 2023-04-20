@@ -1,5 +1,10 @@
 ---
-sidebar_position: 2
+# For index.md in design directory
+sidebar_position: 3
+
+# For this file
+# sidebar_position: -2
+# title: 2023년 4월 3일 개정
 ---
 
 # 디자인팀 세칙
