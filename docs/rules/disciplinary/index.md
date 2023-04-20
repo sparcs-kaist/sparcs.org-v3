@@ -1,3 +1,12 @@
+---
+# For index.md in disciplinary directory
+sidebar_position: 4
+
+# For this file
+# sidebar_position: -1
+# title: 2023년 4월 3일 신설
+---
+
 # 징계위원회 세칙
 
 2023년 4월 3일 신설
