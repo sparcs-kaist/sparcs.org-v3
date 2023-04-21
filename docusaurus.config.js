@@ -85,19 +85,19 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "소개",
+            title: "연관 사이트",
             items: [
               {
-                label: "프로젝트",
-                to: "/docs/intro",
+                label: "Github",
+                href: "https://github.com/sparcs-kaist",
               },
               {
-                label: "세미나",
-                to: "/docs/intro",
+                label: "Instagram",
+                href: "https://www.instagram.com/sparcs.kaist",
               },
               {
-                label: "회원",
-                to: "/docs/intro",
+                label: "Facebook",
+                href: "https://www.facebook.com/kaistsparcs",
               },
             ],
           },
@@ -109,37 +109,24 @@ const config = {
                 href: "http://ftp.kaist.ac.kr/",
               },
               {
-                label: "NewAra",
-                href: "https://newara.sparcs.org",
+                label: "Ara",
+                href: "https://ara.kaist.ac.kr",
               },
               {
-                label: "OTL Plus",
+                label: "OTL",
                 href: "https://otl.kaist.ac.kr",
+              },
+              {
+                label: "Zabo",
+                href: "https://zabo.kaist.ac.kr",
+              },
+              {
+                label: "Taxi",
+                href: "https://taxi.sparcs.org",
               },
               {
                 label: "SSO",
                 href: "https://sparcssso.kaist.ac.kr",
-              },
-              {
-                label: "Zabo",
-                href: "https://zabo.sparcs.org",
-              },
-            ],
-          },
-          {
-            title: "연관 사이트",
-            items: [
-              {
-                label: "Github",
-                href: "https://github.com/sparcs-kaist",
-              },
-              {
-                label: "Facebook",
-                href: "https://www.facebook.com/kaistsparcs",
-              },
-              {
-                label: "Instagram",
-                href: "https://www.instagram.com/sparcs.kaist",
               },
             ],
           },
