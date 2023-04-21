@@ -150,10 +150,6 @@ const config = {
                 to: "https://memvers.sparcs.org",
               },
               {
-                label: "Vault",
-                to: "https://secret.sparcs.org",
-              },
-              {
                 label: "Wiki",
                 to: "https://wiki.sparcs.org",
               },
