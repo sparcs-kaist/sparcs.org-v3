@@ -48,12 +48,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+          sidebar: {
+            autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: "SPARCS",
         logo: {
           alt: "SPARCS Logo",
           src: "img/symbol.svg",
-          width: "50px",
+          width: "80px",
         },
         items: [
           {
@@ -139,7 +144,7 @@ const config = {
             ],
           },
           {
-            title: "회원 전용",
+            title: "내부 서비스",
             items: [
               {
                 label: "Biseo",
