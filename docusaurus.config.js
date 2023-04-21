@@ -62,21 +62,28 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
             label: "소개",
+            to: "docs",
+            // position: "right",
           },
           {
-            to: "seminars/intro",
-            activeBasePath: "seminars",
-            position: "left",
+            label: "프로젝트",
+            to: "docs/projects",
+            // position: "right",
+          },
+          {
             label: "세미나",
+            to: "docs/seminars",
+            // position: "right",
           },
-          { to: "/blog", label: "블로그", position: "left" },
           {
-            href: "https://github.com/sparcs-kaist",
+            label: "블로그", 
+            to: "/blog", 
+            // position: "right"
+          },
+          {
             label: "GitHub",
+            href: "https://github.com/sparcs-kaist",
             position: "right",
           },
         ],
