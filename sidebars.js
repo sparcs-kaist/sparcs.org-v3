@@ -15,7 +15,7 @@
 const sidebars = {
     // By default, Docusaurus generates a sidebar from the docs folder structure
     sidebar: [
-        "index",
+        "intro",
         "activities",
         {
             type: "category",
