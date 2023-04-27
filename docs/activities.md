@@ -18,9 +18,9 @@
 [더 많은 세미나 자료 확인하기](./seminars)
 
 ## 대외협력
-여러 기업과 타대 개발 단체와의 협력을 통한 파트너쉽 구축, 그리고 대내외 해커톤 주최 및 참여에도 힘쓰고 있습니다.
 
-[SPARCS 2023 StartUp Hackathon 알아보기](https://bit.ly/SPARCS-2023-StartUp-Hackathon)
+여러 기업과 타대 개발 단체와의 협력을 통한 파트너쉽 구축, 그리고 대내외 해커톤 주최 및 참여에도 힘쓰고 있습니다.
+2023년 1월에는 100명의 참가자가 2박 3일간 참여하는 [SPARCS 2023 StartUp Hackathon](https://bit.ly/SPARCS-2023-StartUp-Hackathon)을 열었으며 일부 참가자와 멘토링을 진행하였습니다.
 
 ## 친목활동
 
