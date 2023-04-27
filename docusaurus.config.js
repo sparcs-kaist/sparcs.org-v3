@@ -28,6 +28,7 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    routeBasePath: "/",
                     sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
@@ -63,17 +64,17 @@ const config = {
                 items: [
                     {
                         label: "소개",
-                        to: "docs",
+                        to: "/intro",
                         // position: "right",
                     },
                     {
                         label: "프로젝트",
-                        to: "docs/projects",
+                        to: "/projects",
                         // position: "right",
                     },
                     {
                         label: "세미나",
-                        to: "docs/seminars",
+                        to: "/seminars",
                         // position: "right",
                     },
                     {
