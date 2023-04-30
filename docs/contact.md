@@ -4,4 +4,4 @@
 
 구성원들이 모여 지내는 SPARCS 동방은 [KAIST 교양분관(N11) 1층](https://naver.me/GKvuqcpB)에 위치하고 있습니다.
 
-<iframe width="600" height="450" style={{border:0}} loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=SPARCS%20%EB%8F%99%EB%B0%A9%2C%20%EB%8C%80%ED%95%99%EB%A1%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD&key=AIzaSyBiKXaqBVstmDccUZGZzyBVIXtezG_KXkw"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.447652135281!2d127.35783487549774!3d36.37415579160039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654bd002a896ad%3A0xd9223d7b4a4e0a52!2zU1BBUkNTIOuPmeuwqQ!5e0!3m2!1sko!2skr!4v1682645690662!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
