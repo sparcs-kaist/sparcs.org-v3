@@ -46,7 +46,7 @@ const sidebars = {
         },
         {
             type: "category",
-            label: "회칙",
+            label: "규칙",
             link: {
                 type: "doc",
                 id: "rules",
