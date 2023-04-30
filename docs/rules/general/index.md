@@ -1,6 +1,15 @@
-# SPARCS 회칙
+---
+# For index.md in general directory
+sidebar_position: 1
 
-2023년 4월 3일 개정
+# For this file
+# sidebar_position: -3
+# title: 2023년 4월 3일 개정
+---
+
+# 회칙
+
+2023년 4월 24일 개정
 
 ## 제1장 총칙
 
