@@ -1,5 +1,10 @@
 ---
-sidebar_position: 1
+# For index.md in wheel directory
+sidebar_position: 2
+
+# For this file
+# sidebar_position: -2
+# title: 2023년 4월 3일 개정
 ---
 
 # Wheel 세칙

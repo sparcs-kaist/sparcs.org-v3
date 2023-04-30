@@ -47,7 +47,7 @@ CI/CD란 여러 [DevOps](https://en.wikipedia.org/wiki/DevOps) 단계를 아우�
 
 ## Taxi의 CI/CD
 
-SPARCS의 [Taxi Project](/docs/projects/taxi) 역시 CI/CD 파이프라인을 가지고 있습니다. (2022-12-04 작성 당시의) 이 구조에 대해 간단히 설명드리고자 합니다.
+SPARCS의 [Taxi Project](/projects/taxi) 역시 CI/CD 파이프라인을 가지고 있습니다. (2022-12-04 작성 당시의) 이 구조에 대해 간단히 설명드리고자 합니다.
 
 ![image-20221204221254055](./taxi_deploy.png)
 
