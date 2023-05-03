@@ -1,6 +1,6 @@
 ---
 authors: hanu
-slug: Gitops란?
+slug: Gitops
 ---
 
 # Gitops 알아보기
