@@ -66,39 +66,6 @@ Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이
 - **App**: https://github.com/sparcs-kaist/taxi-app
 - **Server**: https://github.com/sparcs-kaist/taxi-back
 
-## 구성원
-
-- Project Manager
-  ```javascript
-  { name: "김건", id: "suwon", period: "2022 ~ 2023" }, // 22봄 ~ 23봄 (누적 5학기)
-  { name: "이채영", id: "stitch", period: "2021" }, // 21봄 ~ 21겨울 (누적 4학기)
-  ```
-- Designer
-  ```javascript
-  { name: "최지헌", id: "agent", period: "2021 ~ 2022" }, // 21여름 ~ 22겨울 (누적 7학기)
-  { name: "이혜원", id: "chillo", period: "2021" }, // 21가을 ~ 21겨울 (누적 2학기)
-  ```
-- Developer
-  ```javascript
-  { name: "정상", id: "macintosh", period: "2021 ~ 2023" }, // 21가을 ~ 23봄 (누적 7학기)
-  { name: "최지헌", id: "agent", period: "2022" }, // 22봄 ~ 22겨울 (누적 4학기)
-  { name: "이진우", id: "jaydub", period: "2022" }, // 22봄 ~ 22겨울 (누적 3학기)
-  { name: "예상우", id: "andy", period: "2022 ~ 2023" }, // 22봄 ~ 23봄 (누적 5학기)
-  { name: "손성민", id: "happycastle", period: "2022 ~ 2023" }, // 22여름 ~ 23봄 (누적 4학기)
-  { name: "최동원", id: "won", period: "2022 ~ 2023" }, // 22가을 ~ 23봄 (누적 3학기)
-  { name: "이서완", id: "swany", period: "2022 ~ 2023" }, // 22봄 ~ 23봄 (누적 5학기)
-  { name: "최준영", id: "dogma", period: "2021" }, // 21봄 ~ 21겨울 (누적 4학기)
-  { name: "김태우", id: "toby", period: "2021 ~ 2022" }, // 21가을 ~ 22봄 (누적 3학기)
-  { name: "안태찬", id: "return", period: "2022 ~ 2023" }, // 22가을 ~ 23봄 (누적 3학기)
-  { name: "김효경", id: "diana", period: "2022 ~ 2023" }, // 22가을 ~ 23봄 (누적 3학기)
-  { name: "신태현", id: "kiko", period: "2022" }, // 22봄 ~ 22여름 (누적 2학기)
-  { name: "박진호", id: "bread", period: "2021" }, // 21가을 ~ 21겨울 (누적 2학기)
-  { name: "송인화", id: "ina", period: "2021" }, // 21봄 ~ 21여름 (누적 2학기)
-  { name: "박지호", id: "night", period: "2022" }, // 22여름 ~ 22가을 (누적 2학기)
-  { name: "김건", id: "suwon", period: "2021 ~ 2023" }, // 21봄 ~ 21겨울 (누적 4학기)
-  { name: "이채영", id: "stitch", period: "2021" }, // 21봄 ~ 21겨울 (누적 4학기)
-  ```
-
 ## 문의
 
 - [Taxi 마이페이지](https://taxi.sparcs.org/mypage) 하단에 위치한 **채널톡 문의하기**

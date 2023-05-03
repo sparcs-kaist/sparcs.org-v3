@@ -61,8 +61,6 @@ SPARCS 내 Git 사용 정착에 기여한 **_Arari_**, 서울에서 소규모로
 - **API**: https://github.com/sparcs-kaist/new-ara-api
 - **App**: https://github.com/sparcs-kaist/new-ara-app
 
-## Member
-
 ## 문의
 
 [new-ara@sparcs.org](mailto:new-ara@sparcs.org)
