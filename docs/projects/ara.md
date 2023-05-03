@@ -8,7 +8,7 @@ import ProjectLogo from '@site/src/components/ProjectLogo';
     catchphrase="Ara, KAIST's official community service"
 />
 
-## History
+## 역사
 
 **_Ara_**는 SPARCS가 창립된 해인 1991년부터 **_SPARCS BBS_** 라는 이름으로 사용된 서비스입니다. 당시 Ara는 Eagle
 BBS(Bulletin Board System) 기반으로 개발되었으며 대한민국에서 두 번째로 인터넷에 연결된 BBS 서비스입니다. 이는 현존하는
@@ -41,13 +41,13 @@ SPARCS 내 Git 사용 정착에 기여한 **_Arari_**, 서울에서 소규모로
 신속하게'라는 슬로건을 걸고 KAIST 포탈 공지를 모아볼 수 있는 게시판 추가 및 Elasticsearch 도입을 통한 발전된 검색 기능을
 제공하였습니다. Ara의 아이덴티티가 잘 드러나도록 디자인을 개선하였습니다.
 
-## Collaboration
+## 협업
 
 - 매주 한 번의 정기 모임와 한 번의 공동 코딩을 진행하고 있습니다.
 - Slack을 통해 소통하며 GitHub과 연동하여 commit이나 PR 등에 대한 알람을 받습니다.
 - Notion을 이용하여 개발 과정을 기록하고 정기 모임의 회의록을 작성합니다. 칸반을 이용하여 태스크를 분배합니다.
 
-## Framework
+### 사용하는 기술
 
 - [Vue](https://vuejs.org/)
 - [Django](https://www.djangoproject.com/)
@@ -55,7 +55,7 @@ SPARCS 내 Git 사용 정착에 기여한 **_Arari_**, 서울에서 소규모로
 - [Redis](https://redis.io/)
 - [Elasticsearch](https://www.elastic.co/)
 
-## GitHub Repository
+### GitHub 저장소
 
 - **Web**: https://github.com/sparcs-kaist/new-ara-web
 - **API**: https://github.com/sparcs-kaist/new-ara-api
@@ -63,6 +63,6 @@ SPARCS 내 Git 사용 정착에 기여한 **_Arari_**, 서울에서 소규모로
 
 ## Member
 
-## Contact
+## 문의
 
 [new-ara@sparcs.org](mailto:new-ara@sparcs.org)
