@@ -44,5 +44,3 @@ Biseo에서는 특정한 인원이 특정한 개발의 영역을 도맡는 방�
 - **Front-End**: https://github.com/sparcs-kaist/biseo-frontend
 - **Back-End**: https://github.com/sparcs-kaist/biseo-backend
 - **Front-End & Back-End for v2.0**: https://github.com/sparcs-kaist/biseo
-
-### 구성원
