@@ -1,0 +1,54 @@
+.section {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 80px;
+}
+
+.catchphrase {
+  color: gray;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 25px;
+  z-index: 10;
+  background-color: rgba(138, 138, 138, 0.3);
+  opacity: 0;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: white !important;
+  line-height: 40px;
+  text-align: center;
+  gap: 5px;
+  text-decoration: none !important;
+}
+
+.icon {
+  transition: 0.5s ease;
+  color: white;
+  font-size: 40px !important;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  backdrop-filter: blur(5px);
+  opacity: 1;
+}

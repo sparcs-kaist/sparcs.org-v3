@@ -4,4 +4,4 @@ import DocCardList from '@theme/DocCardList';
 
 SPARCS에서 진행하는 프로젝트입니다.
 
-<DocCardList />
+<DocCardList className="DocCardList--no-description" />
