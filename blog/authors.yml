@@ -81,3 +81,9 @@ minseong:
   title: 잠을 잘 자야합니다.
   url: https://github.com/xMHW
   image_url: https://github.com/xMHW.png
+
+default:
+  name: 김현수 (default)
+  title: 언제 졸업하지...
+  url: https://github.com/skykhs3
+  image_url: https://github.com/skykhs3.png
