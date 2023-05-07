@@ -1,6 +1,6 @@
 ---
 authors: hanu
-slug: Gitops
+slug: gitops
 ---
 
 # Gitops 알아보기
