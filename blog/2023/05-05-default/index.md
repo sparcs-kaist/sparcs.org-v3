@@ -1,6 +1,6 @@
 ---
 authors: default
-slug: newara-default1
+slug: flutter-vs-react-native
 ---
 
 # Flutter vs React Native
