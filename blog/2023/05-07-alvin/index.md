@@ -38,10 +38,6 @@ class _MyWidgetState extends State<MyWidget> {
 
 Provider는 BuildContext를 이용한 의존성 주입(Dependency Injection) 패턴을 기반으로 합니다. 의존성 주입이란 위젯에서 필요한 객체, state를 외부에서 주입하여 의존성을 해결하는 디자인 패턴입니다. 이를 통해 코드의 결합도를 낮출 수 있게 됩니다. Provider에서는 의존성 주입을 통해 상위 위젯에서 생성된 객체 및 state를 하위 위젯으로 전달할 수 있고 이를 통해 하위 위젯에서 필요로 하는 데이터를 쉽게 사용할 수 있습니다. Provider에서는 의존성 주입을 위해 Provider.of, Consumer 등의 위젯을 제공합니다.
 
-Provider.of와 같은 경우 Provider.of<T>(context)를 사용하여 간결한 코드로 의존성 주입을 할 수 있습니다. 
-
-Consumer와 같은 경우 Consumer<T>(builder: (context, value, child) {})를 사용하여 의존성 주입이 필요한 위젯을 리턴하는 방식입니다.
-
 Provider를 이용한 Counter 앱 구현은 아래와 같습니다.
 
 ```dart
@@ -137,7 +133,7 @@ class Home extends StatelessWidget {
 }
 ```
 
-GetBuilder()를 사용하지 않을 경우 Get.find<[controller명]>().[변수, 함수]를 사용할 수도 있습니다(위 코드의 경우 Get.find<SimpleController>().increase())
+GetBuilder()를 사용하지 않을 경우 Get.find를 사용할 수도 있습니다
 
 다음으로 반응형 상태 관리에 대한 예시 코드입니다.
 
