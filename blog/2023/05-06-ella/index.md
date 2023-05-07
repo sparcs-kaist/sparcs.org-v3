@@ -1,6 +1,6 @@
 ---
 authors: ella
-slug: Linux Basic Commands
+slug: linux-basic-commands
 ---
 
 # Linux Basic Commands
