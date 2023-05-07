@@ -330,5 +330,6 @@ ChatGPT 또한 코드를 작성하는 과정에서 생기는 단순 노동을 �
 
 ## 주석
 <a name="footnote_1">1</a>: 이메일을 검증하기 위한 완전한 JavaScript 표현식에 대해서는 약간의 의견 차이가 있을 수 있습니다. 다음의 StackOverflow 질문들을 참고하시길 바랍니다.
+
 - [질문 1](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression)
 - [질문 2](https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript)
