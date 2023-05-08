@@ -1,6 +1,6 @@
 ---
 authors: minseong
-slug: Terraform Basics
+slug: terraform-basics
 ---
 
 ## Features
