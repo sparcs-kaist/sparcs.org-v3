@@ -1,3 +1,8 @@
+---
+authors: alvin
+slug: flutter-state-management
+---
+
 # Flutter에서의 State management
 
 안녕하세요! 현재 뉴아라 앱 개발을 담당하고 있는 김상오(alvin)입니다. 앱을 개발하면서 고려해야할 사항들은 매우 다양하지만 그 중에서도 중요하게 다루어져야 하는 부분 중 하나가 바로 상태 관리(State management)라고 생각합니다. Flutter에서는 다양한 state 관리 방법을 지원하고 있으며 현재 뉴아라 및 다른 스팍스 앱에서는 상태 관리에 Provider라는 디자인패턴을 활용하고 있습니다. 저는 이번 기술블로그를 통해 Provider 및 Flutter에서 제공하는 다른 state 관리 방법에는 무엇이 있는 지에 대해 알아보고자 할 것입니다. 각각의 state 관리 방법에 대한 설명 및 간단한 Counter 애플리케이션 코드를 통해 예시를 제공할 것입니다.
