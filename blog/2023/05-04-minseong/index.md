@@ -1,6 +1,6 @@
 ---
 authors: minseong
-slug: IaC Basics
+slug: iac-basics
 ---
 
 ## Definition
