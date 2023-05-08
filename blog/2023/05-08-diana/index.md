@@ -1,3 +1,8 @@
+---
+authors: diana
+slug: sessions-vs-jwt
+---
+
 # Sessions vs JWT
 
 ## **Sessions vs JWT 입문 (동영상)**
@@ -100,7 +105,7 @@ HTTP (웹사이트를 이용할 때 쓰는 프로토콜)은 stateless
 
 ### JWT의 구조
 
-![](/JWT_format.png)
+![](JWT_format.png)
 
 #### JOSE 헤더
 
@@ -113,7 +118,7 @@ HTTP (웹사이트를 이용할 때 쓰는 프로토콜)은 stateless
 로 지정한 알고리즘 `HS256`
  즉, HMAC SHA-256으로 인코딩하면 JWT 토큰의 세 번째 부분인 Signature를 만든다.
 
-> 💡 **추가 설명** > [JWT(Json Web Token) 알아가기](https://brunch.co.kr/@jinyoungchoi95/1) > ![](/JWT_signature.png)
+> 💡 **추가 설명** > [JWT(Json Web Token) 알아가기](https://brunch.co.kr/@jinyoungchoi95/1) > ![](JWT_signature.png)
 > header를 디코딩한 값 + “.” + payload를 디코딩한 값을 위처럼 합치고 이를 your-256-bit-secret, 즉, 서버가 가지고 있는 개인키를 가지고 암호화한 것이 Signature입니다. 따라서 signature는 서버에 있는 개인키로만 암호화를 풀 수 있으므로 다른 클라이언트는 임의로 Signature를 복호화할 수 없습니다.
 
 ### J**WT Claim Set**
