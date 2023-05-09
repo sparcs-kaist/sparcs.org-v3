@@ -134,116 +134,103 @@ model Chat{
 ### CRUD 간단 설명
 
 - create, createMany
-    
-    새로운 DB record를 만들어줍니다. 앞서 설명했듯이 이전에 생성한 index.ts에 생성된 data model의 type에 맞춰 데이터를 넣어 생성할 수 있습니다.
-    
-    ```jsx
-    //this는 Nest.js에서 DI한 PrismaService를 가리킵니다.
-    await this.prisma.user.create({ data: { email:'foo@bar.com', name: 'foo' }});
-    
-    await this.prisma.user.createMany({ 
-    	data: [
-    		{ email:'first@foo.com' ,name: 'first'},
-    		{ email:'second@foo.com' ,name: 'second'},
-    		{ email:'third@foo.com' ,name: 'third'},
-    	],
-    	skipDuplicates: true //생성되는 record중에서 unique field값이 중복되는 경우 생성하지 않습니다.
-    });
-    ```
-    
+  새로운 DB record를 만들어줍니다. 앞서 설명했듯이 이전에 생성한 index.ts에 생성된 data model의 type에 맞춰 데이터를 넣어 생성할 수 있습니다.
+  ```jsx
+  //this는 Nest.js에서 DI한 PrismaService를 가리킵니다.
+  await this.prisma.user.create({
+    data: { email: "foo@bar.com", name: "foo" },
+  });
+
+  await this.prisma.user.createMany({
+    data: [
+      { email: "first@foo.com", name: "first" },
+      { email: "second@foo.com", name: "second" },
+      { email: "third@foo.com", name: "third" },
+    ],
+    skipDuplicates: true, //생성되는 record중에서 unique field값이 중복되는 경우 생성하지 않습니다.
+  });
+  ```
 - findUnique, findFirst, findMany
-    
-    findUnique의 경우 where에 unique한 값만 넣을 수 있습니다. soft delete처럼 만약 두 field의 값을 묶어서 사용해야 하는 경우가 필요하다면 앞선 `@@unique` 의 예시처럼 사용하는 모델에 있는 isDeleted field와 다른 unique 또는 id field를 묶어주면 됩니다.
-    
-    ```jsx
-    @@unique(fields: [id, isDeleted], name:"validChat") //prisma.schema 파일 model 내부에 작성
-    await this.prisma.order.fidnUnique({
-    	where: { validChat:{id: Id, isDeleted: false} },
-    });
-    ```
-    
-    findFirst, findMany의 경우 orderBy와 take를 사용해서 column기준 최대값, 최솟값 혹은 정렬된 몇개의 record를 얻을 수 있습니다. where내부에 OR, AND를 추가하는 것도 가능합니다.
-    
-    ```jsx
-    await this.prisma.order.findFirst({
-      where: { id: Id, isDeleted: false },
-      orderBy: { level: 'desc' },
-      take: 1,
-    });
-    await this.prisma.order.findMany({
-    	where: { name:'foo', isDeleted: false },
-      orderBy: { level: 'asc' },
-      take: 5,
-    });
-    ```
-    
+  findUnique의 경우 where에 unique한 값만 넣을 수 있습니다. soft delete처럼 만약 두 field의 값을 묶어서 사용해야 하는 경우가 필요하다면 앞선 `@@unique` 의 예시처럼 사용하는 모델에 있는 isDeleted field와 다른 unique 또는 id field를 묶어주면 됩니다.
+  ```jsx
+  @@unique(fields: [id, isDeleted], name:"validChat") //prisma.schema 파일 model 내부에 작성
+  await this.prisma.order.fidnUnique({
+  	where: { validChat:{id: Id, isDeleted: false} },
+  });
+  ```
+  findFirst, findMany의 경우 orderBy와 take를 사용해서 column기준 최대값, 최솟값 혹은 정렬된 몇개의 record를 얻을 수 있습니다. where내부에 OR, AND를 추가하는 것도 가능합니다.
+  ```jsx
+  await this.prisma.order.findFirst({
+    where: { id: Id, isDeleted: false },
+    orderBy: { level: "desc" },
+    take: 1,
+  });
+  await this.prisma.order.findMany({
+    where: { name: "foo", isDeleted: false },
+    orderBy: { level: "asc" },
+    take: 5,
+  });
+  ```
 - update, upsert, updateMany
-    
-    update, upsert는 where에 unique input을 넣어 원하는 record를 찾아 data에 넣어주는 값으로 업데이트 해줍니다. upsert의 경우 찾는 record가 없다면 새로운 record를 생성합니다. update 종류들은 increment, decrement, multiply, divide, set등을 통해서 number 종류의 값들을 변경할 수 있습니다.
-    
-    ```jsx
-    await this.prisma.user.update({
-    	where: { id: id },
-    	data: { name: 'bar' },
-    });
-    await this.prisma.user.upsert({
-    	where: { email: 'first@bar.com' },
-    	update: { email: 'second@bar.com' },
-    	create: { name: 'foo', email: 'second@bar.cpm' },
-    });
-    await this.prisma.post.updateMany({
-    	where: { name: 'foo', },
-    	data: { likes: { increment: 1 }, },
-    });
-    ```
-    
+  update, upsert는 where에 unique input을 넣어 원하는 record를 찾아 data에 넣어주는 값으로 업데이트 해줍니다. upsert의 경우 찾는 record가 없다면 새로운 record를 생성합니다. update 종류들은 increment, decrement, multiply, divide, set등을 통해서 number 종류의 값들을 변경할 수 있습니다.
+  ```jsx
+  await this.prisma.user.update({
+    where: { id: id },
+    data: { name: "bar" },
+  });
+  await this.prisma.user.upsert({
+    where: { email: "first@bar.com" },
+    update: { email: "second@bar.com" },
+    create: { name: "foo", email: "second@bar.cpm" },
+  });
+  await this.prisma.post.updateMany({
+    where: { name: "foo" },
+    data: { likes: { increment: 1 } },
+  });
+  ```
 - delete, deletemany
-    - record를 삭제하기 위해서는 delete혹은 deleteMMany를 사용하면 됩니다. delete, deleteMany 내부 where에는 unique input을 넣어줍니다.
-    
-    ```jsx
-    await this.prisma.user.delete({
-      where: { email: 'foo@bar.com',},
-    });
-    await this.prisma.user.deleteMany({
-    	where: { name: 'foo' },
-    });
-    ```
-    
+  - record를 삭제하기 위해서는 delete혹은 deleteMMany를 사용하면 됩니다. delete, deleteMany 내부 where에는 unique input을 넣어줍니다.
+  ```jsx
+  await this.prisma.user.delete({
+    where: { email: "foo@bar.com" },
+  });
+  await this.prisma.user.deleteMany({
+    where: { name: "foo" },
+  });
+  ```
 - select, include
-    
-    앞서 설명한 CRUD에 넣어주고 데이터를 가져오기를 원하는 field에 true설정만 해주면 됩니다. 
-    
-    ```jsx
-    await this.prisma.user.create({ data: { email:'foo@bar.com', name: 'foo' }, select: { name: true, email: true}});
-    
-    await this.prisma.user.create({ data: { email:'foo@bar.com', name: 'foo' }, include: { post: true }});//user model에 post model이 @relation으로 묶여있는 경우
-    ```
-    
-    select는 scalar field, include는 relation으로 연결되어 있는 다른 data model을 불어와 지정된 변수에 넣어줄 수 있습니다. 하지만 select를 통해서도 relation으로 연결되어 있는 data model을 불러올 수 있고, include와 select를 같이 사용하지 못하기 때문에 특별한 경우가 아니라면 select를 통해서 원하는 field와 연결된 data model을 불러오면 됩니다. Prisma에서는 select나 include에서 true로 설정한 field들로 변수를 구성하기 때문에 type검사에 있어 런타임 전에 문제가 되는 부분을 수정할 수 있습니다. 여기서 주의해야 할 점은 select를 통해 다른 model을 불러올 때 해당 모델은 빈 모델일 수 없다는 점입니다. 예를 들어 다음과 같은 상황에서 author model의 하위의 모든 field를 false로 둘 경우 런타임 전 type검사에서 문제가 없다 하더라도 런타임에서 ‘최소한 하나의 field는 불러와야 한다’는문제가 발생합니다.
-    
-    ```jsx
-    select: {
-    	author: {
-    		select:{
-    			email: false,
-    			name: false,
-    			img: false
-    		},
-    	},
-    .....
-    ```
-    
+  앞서 설명한 CRUD에 넣어주고 데이터를 가져오기를 원하는 field에 true설정만 해주면 됩니다.
+  ```jsx
+  await this.prisma.user.create({
+    data: { email: "foo@bar.com", name: "foo" },
+    select: { name: true, email: true },
+  });
+
+  await this.prisma.user.create({
+    data: { email: "foo@bar.com", name: "foo" },
+    include: { post: true },
+  }); //user model에 post model이 @relation으로 묶여있는 경우
+  ```
+  select는 scalar field, include는 relation으로 연결되어 있는 다른 data model을 불어와 지정된 변수에 넣어줄 수 있습니다. 하지만 select를 통해서도 relation으로 연결되어 있는 data model을 불러올 수 있고, include와 select를 같이 사용하지 못하기 때문에 특별한 경우가 아니라면 select를 통해서 원하는 field와 연결된 data model을 불러오면 됩니다. Prisma에서는 select나 include에서 true로 설정한 field들로 변수를 구성하기 때문에 type검사에 있어 런타임 전에 문제가 되는 부분을 수정할 수 있습니다. 여기서 주의해야 할 점은 select를 통해 다른 model을 불러올 때 해당 모델은 빈 모델일 수 없다는 점입니다. 예를 들어 다음과 같은 상황에서 author model의 하위의 모든 field를 false로 둘 경우 런타임 전 type검사에서 문제가 없다 하더라도 런타임에서 ‘최소한 하나의 field는 불러와야 한다’는문제가 발생합니다.
+  ```jsx
+  select: {
+  	author: {
+  		select:{
+  			email: false,
+  			name: false,
+  			img: false
+  		},
+  	},
+  .....
+  ```
 - Transaction
-    
-    Prisma에서는 optimistic lock을 간단하게 설정할 수 있습니다. 기본적인 사용법에 대해서 하나만 소개하자면 다음과 같습니다.(Interactive transactions)
-    
-    ```jsx
-    await this.prisma.$transaction(async(tx) => {
-    	await tx.user.update ....
-    	await tx.author.create ....
-    })
-    ```
-    
+  Prisma에서는 pessimistic lock을 간단하게 설정할 수 있습니다. 기본적인 사용법에 대해서 하나만 소개하자면 다음과 같습니다.(Interactive transactions)
+  ```jsx
+  await this.prisma.$transaction(async(tx) => {
+  	await tx.user.update ....
+  	await tx.author.create ....
+  })
+  ```
 
 ### 마무리
 
