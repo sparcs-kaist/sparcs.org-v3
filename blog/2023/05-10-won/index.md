@@ -108,11 +108,11 @@ router.route("/").get(logininfoHandlers.logininfoHandler);
 
 이렇게 annotation을 잘 작성해주고, 아까 설정한 주소를 접속하면 멋지게 정리된 저희의 문서들을 볼 수 있습니다!
 
-![img](swagger_example.png)
+![img](swagger_example.PNG)
 
 또한, 각 API들을 직접 테스트한 결과를 다음과 같이 웹 화면에서 직접 확인할 수 있습니다.
 
-![img](test_result.png)
+![img](test_result.PNG)
 
 
 Swagger에 대해 더 자세하게 알고 싶다면 [Swagger 공식문서](https://swagger.io/docs)를 읽어보는 것을 추천드립니다.
