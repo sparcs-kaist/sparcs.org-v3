@@ -33,6 +33,7 @@ slug: swag-documentation-with-swagger
 이 글은 Node.js(express) + Javascript를 기반으로 작성되었습니다.
 
 먼저, Swagger을 사용하기 위한 npm 모듈을 설치해줍니다.
+
 `npm install swagger-ui-express swagger-jsdoc`
 
 그 후, 다음과 같이 router 설정을 수정합니다. 이러면 /docs에 들어가면 Swagger로 작성된 문서를 확인할 수 있습니다.
@@ -107,11 +108,12 @@ router.route("/").get(logininfoHandlers.logininfoHandler);
 
 이렇게 annotation을 잘 작성해주고, 아까 설정한 주소를 접속하면 멋지게 정리된 저희의 문서들을 볼 수 있습니다!
 
-<img src="./swagger_example.png" width="100%" height="350"></img>
+![img](swagger_example.png)
 
 또한, 각 API들을 직접 테스트한 결과를 다음과 같이 웹 화면에서 직접 확인할 수 있습니다.
 
-<img src="./test_result.png" width="100%" height="350"></img>
+![img](test_result.png)
+
 
 Swagger에 대해 더 자세하게 알고 싶다면 [Swagger 공식문서](https://swagger.io/docs)를 읽어보는 것을 추천드립니다.
 
@@ -119,7 +121,7 @@ Swagger에 대해 더 자세하게 알고 싶다면 [Swagger 공식문서](https
 최근 이벤트로 뜨거운 관심을 받고 있는 [Taxi](https://taxi.sparcs.org/home) 서비스는 이전까지 [github Readme](https://github.com/sparcs-kaist/taxi-back/blob/dev/src/routes/docs/README.md)를 사용해서 문서화를 진행해왔는데요, 이번 23년도 봄학기부터 PM(@suwon)님의 제안으로 문서 최신화 작업과 더불어 Swagger를 통한 문서 자동화 작업을 진행 중에 있습니다. 지금부터는 Taxi 팀에서 Swagger을 어떻게 사용하고 있는지 간단하게 알아보겠습니다.
 
 ### Swagger 문서들만 파일로 따로 관리하자!
-위의 예시처럼 annotation을 통해 Swagger을 작성할 수도 있지만, 이 방법의 경우 복잡한 API에서 annotation이 너무 길어지게 되어 코드가 자칫 더러워질 수 있다는 위험이 있습니다. 또한 문서에서 비슷한 부분이 계속 반복되는 경우 나중에 변경점이 있을 경우 다 수정해야하는 번거로움이 생기겠죠. 
+위의 예시처럼 annotation을 통해 Swagger을 작성할 수도 있지만, 이 방법의 경우 복잡한 API에서 annotation이 너무 길어지게 되어 코드가 자칫 더러워질 수 있다는 위험이 있습니다. 또한 문서에서 비슷한 부분이 계속 반복되는 경우 나중에 변경이 필요할 때 다 수정해야하는 번거로움이 생기겠죠. 
 
 그렇기 때문에 저희는 각 문서들을 json 형식의 object로 관리하여 이 문제를 해결하였습니다. 아래 코드와 같이 각 파일에서 작성된 Swagger 문서들을 가져와 각 문서들을 마치 변수처럼 활용하는 것을 볼 수 있습니다. 이렇게 하면 깔끔하고 좀 더 편하게 문서를 작성할 수 있습니다.
 
