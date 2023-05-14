@@ -1,6 +1,6 @@
 ---
  authors: yongworry
- slug: ss496-specialzed system
+ slug: ss496-specialzed-system
 ---
 # AI 특화 프로세서
 이 글은 4/4에 진행된 박종세 교수님의 반도체 콜로키움(SS496) 강연을 듣고 작성된 감상문입니다.
