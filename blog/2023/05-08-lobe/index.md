@@ -161,8 +161,8 @@ class MemoViewModel extends ChangeNotifier {
   }
 
   void updateMemo({Memo? oldMemo, Memo? newMemo}) {
-    _memolist.remove(oldMemo);
     if (newMemo != null) {
+      _memolist.remove(oldMemo);
       _memolist.insert(0, newMemo);
     }
     _saveMemo();
@@ -220,7 +220,7 @@ class MemoView extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          Memo newMemo = await Navigator.push(
+          Memo? newMemo = await Navigator.push(
               context, pageRouteBuilder(const MemoDetailView()));
           viewModel.updateMemo(newMemo: newMemo);
         },
@@ -233,7 +233,7 @@ class MemoView extends StatelessWidget {
     MemoViewModel viewModel = Provider.of<MemoViewModel>(context);
     return InkWell(
       onTap: () async {
-        Memo newMemo = await Navigator.push(
+        Memo? newMemo = await Navigator.push(
             context, pageRouteBuilder(MemoDetailView(memo: memo)));
         viewModel.updateMemo(oldMemo: memo, newMemo: newMemo);
       },
@@ -282,7 +282,7 @@ class MemoView extends StatelessWidget {
     );
   }
 
-  PageRouteBuilder pageRouteBuilder(Widget page) {
+  PageRouteBuilder<Memo> pageRouteBuilder(Widget page) {
     return PageRouteBuilder(
       pageBuilder: (_, __, ___) => page,
       transitionDuration: const Duration(milliseconds: 200),
@@ -311,8 +311,6 @@ class MemoView extends StatelessWidget {
 import 'package:flutter/material.dart';
 import 'package:mvvm_example/models/memo.dart';
 import 'package:intl/intl.dart';
-import 'package:mvvm_example/viewmodels/memo_view_model.dart';
-import 'package:provider/provider.dart';
 
 class MemoDetailView extends StatefulWidget {
   const MemoDetailView({super.key, this.memo});
@@ -341,7 +339,6 @@ class _MemoDetailViewState extends State<MemoDetailView> {
 
   @override
   Widget build(BuildContext context) {
-    MemoViewModel viewModel = Provider.of<MemoViewModel>(context);
     return Scaffold(
       appBar: AppBar(
         actions: [
