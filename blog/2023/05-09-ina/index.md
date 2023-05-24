@@ -1,3 +1,7 @@
+---
+authors: ina
+slug: acm-chi-2023
+---
 # ACM CHI 를 다녀오다
 
 ### **들어가기 전에**
@@ -73,5 +77,5 @@ KAIST라는 소속이 매우 자랑스럽습니다. 저를 둘러싼 울타리�
 --- | --- | --- | 
 
 
-![Life Time Research Award를 수상하신 Gregory Abowd 교수님의 talk 정말 울림이 컸다. ](./images/gregory.jpg)<span style="color:silver;font-size:50%">Life Time Research Award를 수상하신 Gregory Abowd 교수님의 talk 정말 울림이 컸다.</span>  |![독일의 젤라또는……….너무 달다](./images/icecream.jpg)<span style="color:silver;font-size:50%">독일의 젤라또는……….너무 달다</span>
---- | --- |
+![Life Time Research Award를 수상하신 Gregory Abowd 교수님의 talk 정말 울림이 컸다. ](./images/gregory.jpg)<span style="color:silver;font-size:50%">Life Time Research Award를 수상하신 Gregory Abowd 교수님의 talk 정말 울림이 컸다.</span>  |![그레고리 교수님 academia family 식사 자리](./images/gregory.jpeg)<span style="color:silver;font-size:50%">그레고리 교수님 academia family 식사 자리 </span> |![독일의 젤라또는……….너무 달다](./images/icecream.jpg)<span style="color:silver;font-size:50%">독일의 젤라또는……….너무 달다</span>
+--- | --- | --- |
