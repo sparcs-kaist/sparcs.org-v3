@@ -1,6 +1,6 @@
 ---
 authors: swany
-slug: Airflow
+slug: airflow
 ---
 
 # Apache Airflow
