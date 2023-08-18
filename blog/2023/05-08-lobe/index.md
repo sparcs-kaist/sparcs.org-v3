@@ -1,6 +1,6 @@
 ---
 authors: lobe
-slug: design-pattern-MVVM
+slug: design-pattern-mvvm
 ---
 
 # 디자인 패턴 - MVVM
