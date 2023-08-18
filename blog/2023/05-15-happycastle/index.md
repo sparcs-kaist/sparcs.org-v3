@@ -1,6 +1,6 @@
 ---
 authors: happycastle
-slug: FlutterInAppWebView-front-communication
+slug: flutterinappwebview-front-communication
 ---
 
 # FlutterInAppWebView와 Front-end 간의 통신 방법
