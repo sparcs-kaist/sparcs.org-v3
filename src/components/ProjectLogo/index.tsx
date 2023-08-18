@@ -1,20 +1,20 @@
-import LinkIcon from "@mui/icons-material/Link";
-import React from "react";
-import styles from "./styles.module.css";
+import LinkIcon from '@mui/icons-material/Link'
+import React from 'react'
+import styles from './styles.module.css'
 
 type ProjectLogoProps = {
-  name: string;
-  url: string;
-  catchphrase: string;
-};
+  name: string
+  url: string
+  catchphrase: string
+}
 
 export default function ProjectLogo({
   name,
   url,
   catchphrase,
 }: ProjectLogoProps): JSX.Element {
-  const ext = name === "Biseo" ? `png` : `svg`;
-  const logoUrl = `/projects/logo/${name.toLowerCase()}-logo.${ext}`;
+  const ext = name === 'Biseo' ? `png` : `svg`
+  const logoUrl = `/projects/logo/${name.toLowerCase()}-logo.${ext}`
   return (
     <section className={styles.section}>
       <div className={styles.container}>
@@ -31,5 +31,5 @@ export default function ProjectLogo({
         </a>
       </div>
     </section>
-  );
+  )
 }
