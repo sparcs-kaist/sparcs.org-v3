@@ -46,3 +46,4 @@
 /blog/2023/05-05-minseong/TerraformWorkTypes.png filter=lfs diff=lfs merge=lfs -text
 /blog/2023/05-05-default/vs.png filter=lfs diff=lfs merge=lfs -text
 /blog/2022/05-15-snowsuno/dongbang.png filter=lfs diff=lfs merge=lfs -text
+/blog/2023/05-15-snowsuno/dongbang.png filter=lfs diff=lfs merge=lfs -text
