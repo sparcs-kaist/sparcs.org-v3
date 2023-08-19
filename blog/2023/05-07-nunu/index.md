@@ -1,6 +1,6 @@
 ---
 authors: nunu
-slug: ChatGPT & Prompt Engineering Tutorial
+slug: chatgpt-and-prompt-engineering-tutorial
 ---
 
 # ChatGPT와 Prompt Engineering
