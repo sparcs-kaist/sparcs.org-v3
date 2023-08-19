@@ -68,3 +68,7 @@
 /blog/2023/05-14-phenol/BB84-protocol.png filter=lfs diff=lfs merge=lfs -text
 /blog/2023/05-14-phenol/Shor-Algorithm.jpeg filter=lfs diff=lfs merge=lfs -text
 /blog/2023/05-15-retro/survey.png filter=lfs diff=lfs merge=lfs -text
+/blog/2023/0514-suwon/code_review.png filter=lfs diff=lfs merge=lfs -text
+/blog/2023/0514-suwon/code_rules.png filter=lfs diff=lfs merge=lfs -text
+/blog/2023/05-14-suwon/code_review.png filter=lfs diff=lfs merge=lfs -text
+/blog/2023/05-14-suwon/code_rules.png filter=lfs diff=lfs merge=lfs -text
