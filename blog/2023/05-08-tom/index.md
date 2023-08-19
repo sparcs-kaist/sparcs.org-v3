@@ -1,6 +1,6 @@
 ---
 authors: tom
-slug: Try Prisma
+slug: try-prisma
 ---
 # Prisma를 사용해보세요
 
