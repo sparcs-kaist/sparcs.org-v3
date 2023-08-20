@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'SPARCS',
   tagline: `System Programmers’ Association for Researching Computer Systems`,
-  url: 'https://sparcs.netlify.app/',
+  url: 'https://sparcs.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
