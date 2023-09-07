@@ -16,31 +16,47 @@ import ProjectLogo from '@site/src/components/ProjectLogo';
 
 Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이듬해 가을인 2022년 가을학기에 **Taxi Beta**를 출시하여 일부 KAIST 학우들에게 홍보를 진행하여 의견을 수렴하였습니다. 2022년 가을학기에 **Taxi** 정식 서비스를 출시하여 홍보하였습니다.
 
-### 향후 계획
+## 향후 계획 및 목표
 
 - 카이스트 학우들의 택시 동승 문화를 선도하는 서비스
 - 동승부터 정산까지 한 앱에서 모두 해결하도록 도와주는 서비스
 - KAIST 학우들이 편하게 접할 수 있는 SPARCS 서비스
 
-### 발표 자료
+## 서비스 소개
 
-- [2021년 가을학기 SPARCS Homecoming](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/stitch_1637422019377.pdf) / 이채영-stitch
-- [2022년 봄학기 SPARCS 임시총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1660753366898.pdf) / 김건-suwon
-- [2022년 봄학기 Taxi Intern Project](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/andy_1659942777418.pptx) / 예상우-andy
-- [2022년 가을학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1682521842595.pdf) / 김건-suwon
-- [2022년 가을학기 SPARCS Homecoming](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/agent%2C+andy%2C+macintosh_1682521983214.pdf) / 예상우-andy, 최지헌-agent, 정상-macintosh
-- [2022년 가을학기 SPARCS 종강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1682522169035.pdf) / 김건-suwon
+1. 메인
+2. 검색
+3. 개설
+4. 내 방 리스트
+5. 채팅
+6. 마이페이지
+
+## 발표 자료
+
+- [2023년 가을학기 Taxi Development 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694070420688.pdf) / 김건-suwon
+- [2023년 가을학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694070332311.pdf) / 김건-suwon, 손성민-happycastle
+- [2023년 여름학기 Taxi App 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/happycastle_1694070237984.pdf) / 손성민-happycastle
+- [2023년 여름학기 Taxi Backend 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/won_1694070139397.pdf) / 최동원-won
+- [2023년 여름학기 Taxi Infra 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/macintosh_1694070061877.pdf) / 정상-macintosh
+- [2023년 봄학기 SPARCS 종강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694069762083.pdf) / 김건-suwon
+- [2023년 봄학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694069587483.pdf) / 김건-suwon
 - [2022년 가을학기 Taxi Intern Project](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/won_1682522258809.pptx) / 최동원-won
+- [2022년 가을학기 SPARCS 종강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1682522169035.pdf) / 김건-suwon
+- [2022년 가을학기 SPARCS Homecoming](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/agent%2C+andy%2C+macintosh_1682521983214.pdf) / 예상우-andy, 최지헌-agent, 정상-macintosh
+- [2022년 가을학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1682521842595.pdf) / 김건-suwon
+- [2022년 봄학기 Taxi Intern Project](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/andy_1659942777418.pptx) / 예상우-andy
+- [2022년 봄학기 SPARCS 임시총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1660753366898.pdf) / 김건-suwon
+- [2021년 가을학기 SPARCS Homecoming](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/stitch_1637422019377.pdf) / 이채영-stitch
 
 ## 협업
 
-- 매주 화요일 오후 9시 ~ 12시에 회의 및 공동 코딩을 진행합니다.
+- 매주 화요일, 목요일 오후 9시 ~ 12시에 회의 및 공동 코딩을 진행합니다.
 - 대면 회의는 교양분관 SPARCS 동방에서, 비대면 회의는 Discord에서 진행됩니다.
 - Slack을 통해 공지, 질문, 아이디어 제안, Github Bot, 자동배포 봇, Notion Bot 등을 관리합니니다.
 - Notion으로 Coding Rules와 Coding Conventions를 지정하고, 매주 회의록을 작성합니다.
 - [Figma](https://www.figma.com/file/7Y8jsGFupTqruFu636r0Mz/SPARCS-Taxi-Design)로 디자인 작업을 합니다.
 
-### 개발 과정
+## 개발 과정
 
 1. 회의에서 제시된 아이디어 및 발견된 버그의 문제 해결을 논의합니다.
 2. 기획 후 Figma로 디자인합니다.
@@ -54,13 +70,13 @@ Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이
 7. 개발용 서비스에 자동 배포 후, 실제 서비스에서 발생할 수 있는 문제를 사전에 확인해 봅니다.
 8. 실제 서비스에 자동 배포합니다.
 
-### 사용하는 기술
+## 사용하는 기술
 
-- **Web**: React
+- **Web**: React(TypeScript)
 - **App**: Flutter
-- **Server**: Express, MongoDB, Redis
+- **Server**: Express(TypeScript), MongoDB, Redis
 
-### GitHub 저장소
+## GitHub 저장소
 
 - **Web**: https://github.com/sparcs-kaist/taxi-front
 - **App**: https://github.com/sparcs-kaist/taxi-app
@@ -68,5 +84,4 @@ Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이
 
 ## 문의
 
-- [Taxi 마이페이지](https://taxi.sparcs.org/mypage) 하단에 위치한 **채널톡 문의하기**
-- [taxi@sparcs.org](mailto:taxi@sparcs.org)
+- [Taxi 마이페이지](https://taxi.sparcs.org/mypage) 하단에 위치한 **채널톡 문의하기** 로 문의 부탁드립니다.
