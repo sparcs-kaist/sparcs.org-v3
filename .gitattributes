@@ -76,3 +76,4 @@
 /blog/2023/05-10-won/spring_rest_docs.png filter=lfs diff=lfs merge=lfs -text
 /blog/2023/05-07-triangle/Untitled1.png filter=lfs diff=lfs merge=lfs -text
 /blog/2023/05-07-triangle/server-example.png filter=lfs diff=lfs merge=lfs -text
+/static/projects/taxi-application.png filter=lfs diff=lfs merge=lfs -text
