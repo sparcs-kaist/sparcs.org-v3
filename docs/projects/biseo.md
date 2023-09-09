@@ -47,6 +47,7 @@ Biseo에서는 특정한 인원이 특정한 개발의 영역을 도맡는 방�
 - **Front-End**: React, TypeScript, JavaScript
 - **Back-End**: TypeScript, JavaScript, Node Express, Socket io
 - **Database**: MongoDB, Redis
+
 **Biseo v2.0**
 - **Front-End**: React, TypeScript
 - **Back-End**:  TypeScript, Node Express, Socket io
