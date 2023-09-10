@@ -13,8 +13,7 @@ export default function ProjectLogo({
   url,
   catchphrase,
 }: ProjectLogoProps): JSX.Element {
-  const ext = name === `svg`
-  const logoUrl = `/projects/logo/${name.toLowerCase()}-logo.${ext}`
+  const logoUrl = `/projects/logo/${name.toLowerCase()}-logo.svg`
   return (
     <section className={styles.section}>
       <div className={styles.container}>
