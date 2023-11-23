@@ -53,3 +53,7 @@ Zabo는 2020년 봄 출시한 이후 교내 각 동아리의 선발 공고 및 �
 
 - [Zabo](https://zabo.kaist.ac.kr) 좌측 하단에 위치한 채널톡
 - [zabo@sparcs.org](mailto:zabo@sparcs.org)
+
+### 프로젝트 소개 PDF
+
+![프로젝트 소개 PDF](/projects/introudction/zabo.png)
