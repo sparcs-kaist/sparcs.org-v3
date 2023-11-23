@@ -64,4 +64,4 @@ Biseo에서는 특정한 인원이 특정한 개발의 영역을 도맡는 방�
 
 ### 프로젝트 소개 PDF
 
-[프로젝트 소개 PDF](/projects/introudction/biseo.pdf)
+[프로젝트 소개 PDF](/projects/introduction/biseo.pdf)
