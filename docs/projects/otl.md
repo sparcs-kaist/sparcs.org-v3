@@ -49,4 +49,4 @@ OTL은 매 학기 4,000여 명이 넘는 KAIST 학우들이 사용하는 서비�
 
 ### 프로젝트 소개 PDF
 
-![프로젝트 소개 PDF](/projects/introudction/otl.pdf)
+[프로젝트 소개 PDF](/projects/introudction/otl.pdf)
