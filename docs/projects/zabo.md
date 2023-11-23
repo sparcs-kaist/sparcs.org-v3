@@ -56,4 +56,4 @@ Zabo는 2020년 봄 출시한 이후 교내 각 동아리의 선발 공고 및 �
 
 ### 프로젝트 소개 PDF
 
-![프로젝트 소개 PDF](/projects/introudction/zabo.png)
+![프로젝트 소개 PDF](/projects/introudction/zabo.pdf)
