@@ -93,3 +93,5 @@
 /static/homecoming/2023/wheel.pdf filter=lfs diff=lfs merge=lfs -text
 /static/homecoming/2023/zabo.pdf filter=lfs diff=lfs merge=lfs -text
 /static/homecoming/2023/zabo.presentation.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/ara.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/biseo.presentation.pdf filter=lfs diff=lfs merge=lfs -text
