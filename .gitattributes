@@ -83,3 +83,13 @@
 /static/projects/introduction/otl.pdf filter=lfs diff=lfs merge=lfs -text
 /static/projects/introduction/zabo.pdf filter=lfs diff=lfs merge=lfs -text
 /static/projects/introduction/wheel.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/biseo.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/otl.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/otl.presentation.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/planning.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/planning.presentation.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/taxi.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/taxi.presentation.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/wheel.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/zabo.pdf filter=lfs diff=lfs merge=lfs -text
+/static/homecoming/2023/zabo.presentation.pdf filter=lfs diff=lfs merge=lfs -text
