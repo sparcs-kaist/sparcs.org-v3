@@ -40,7 +40,7 @@ npm run deploy
 
 ### TODO
 
-- contact(sparcs.kaist@gmail.com) 빠짐
+- contact(<staff@sparcs.org>) 빠짐
 - 멤버 소개 빠짐
 - 여러 활동 사진 빠짐
 - 대내외 해커톤 소개 빠짐
