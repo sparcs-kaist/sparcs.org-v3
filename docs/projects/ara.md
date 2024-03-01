@@ -10,11 +10,11 @@ import ProjectLogo from '@site/src/components/ProjectLogo';
 
 ## 역사
 
-**_Ara_**는 SPARCS가 창립된 해인 1991년부터 **_SPARCS BBS_** 라는 이름으로 사용된 서비스입니다. 당시 Ara는 Eagle
+**_Ara_** 는 SPARCS가 창립된 해인 1991년부터 **_SPARCS BBS_** 라는 이름으로 사용된 서비스입니다. 당시 Ara는 Eagle
 BBS(Bulletin Board System) 기반으로 개발되었으며 대한민국에서 두 번째로 인터넷에 연결된 BBS 서비스입니다. 이는 현존하는
 BBS 서비스 중 가장 오래된 서비스입니다.
 
-1998년 공개된 **_NeoAra_**는 newsgroup을 연동하기 위한 NNTP(Network News Transfer Protocol) 기반으로 개발되었습니다. 이를 통해 KAIST 구성원뿐만 아니라 KAIST 주변의 국내 인터넷 사용자 모두를 위한 newsgroup의 역할을 하고자 하였습니다.
+1998년 공개된 **_NeoAra_** 는 newsgroup을 연동하기 위한 NNTP(Network News Transfer Protocol) 기반으로 개발되었습니다. 이를 통해 KAIST 구성원뿐만 아니라 KAIST 주변의 국내 인터넷 사용자 모두를 위한 newsgroup의 역할을 하고자 하였습니다.
 
 2006년 공개된 **_NeoAra & WebAra_** 이후부터 웹과 연동할 수 있었습니다. 이를 통해 Telnet, NNTP 뿐만 아니라 Web으로도
 Ara를 이용할 수 있게 되었으며 파일 첨부 기능이 추가되었습니다.
@@ -45,22 +45,24 @@ SPARCS 내 Git 사용 정착에 기여한 **_Arari_**, 서울에서 소규모로
 
 - 매주 한 번의 정기 모임와 한 번의 공동 코딩을 진행하고 있습니다.
 - Slack을 통해 소통하며 GitHub과 연동하여 commit이나 PR 등에 대한 알람을 받습니다.
-- Notion을 이용하여 개발 과정을 기록하고 정기 모임의 회의록을 작성합니다. 칸반을 이용하여 태스크를 분배합니다.
+- Notion을 이용하여 개발 과정을 기록하고 정기 모임의 회의록을 작성합니다.
+- GitHub Project를 이용하여 마일스톤과 태스크를 관리합니다.
 
 ### 사용하는 기술
 
-- [Vue](https://vuejs.org/)
-- [Django](https://www.djangoproject.com/)
-- [MySQL](https://www.mysql.com/)
-- [Redis](https://redis.io/)
-- [Elasticsearch](https://www.elastic.co/)
+- [Vue 2](https://vuejs.org/)
+  - Vue 2 지원이 2023년 12월 31일에 종료됨에 따라 Next.js 14로 이전을 준비하고 있습니다.
+- [Django 4.2](https://www.djangoproject.com/)
+- [MySQL 8.0](https://www.mysql.com/)
+- [Redis 6](https://redis.io/)
+- [Elasticsearch 8.5](https://www.elastic.co/)
 
 ### GitHub 저장소
 
-- **Web**: https://github.com/sparcs-kaist/new-ara-web
-- **API**: https://github.com/sparcs-kaist/new-ara-api
-- **App**: https://github.com/sparcs-kaist/new-ara-app
+- Web: <https://github.com/sparcs-kaist/new-ara-web>
+- App: <https://github.com/sparcs-kaist/new-ara-app>
+- API: <https://github.com/sparcs-kaist/new-ara-api>
 
 ## 문의
 
-[new-ara@sparcs.org](mailto:new-ara@sparcs.org)
+[ara@sparcs.org](mailto:ara@sparcs.org)
