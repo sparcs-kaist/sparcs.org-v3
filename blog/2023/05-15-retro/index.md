@@ -5,7 +5,7 @@ slug: towards-bugless-code
 
 # 버그 없는 코드를 향하여
 
-*본 글은 KAIST 강의 중 김문주 교수님의 <소프트웨어 소스 코드 동적 분석>, 유신 교수님의 <소프트웨어 테스팅 자동화 기법>, 허기홍 교수님의 <[프로그래밍 논증](https://github.com/prosyslab-classroom/cs492-program-reasoning/tree/main/slides)>을 참고하였음을 밝힙니다*
+*본 글은 KAIST 강의 중 김문주 교수님의 \<소프트웨어 소스 코드 동적 분석\>, 유신 교수님의 \<소프트웨어 테스팅 자동화 기법\>, 허기홍 교수님의 \<[프로그래밍 논증](https://github.com/prosyslab-classroom/cs492-program-reasoning/tree/main/slides)\>을 참고하였음을 밝힙니다*
 
 돌아가기**만** 하는 코드를 작성하는 것은 어느 때보다도 쉬워진 세상이다. 
 
