@@ -1,9 +1,15 @@
 # SPARCS Homepage v3
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/28ba6a4f-baed-4dc8-96a4-2650472b06d5/deploy-status)](https://app.netlify.com/sites/sparcs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c077ed0-cf3d-4cc9-89d5-33f0285fc903/deploy-status)](https://app.netlify.com/sites/sparcs/deploys)
 [![CI](https://github.com/sparcs-kaist/sparcs.org-v3/actions/workflows/ci.yml/badge.svg)](https://github.com/sparcs-kaist/sparcs.org-v3/actions/workflows/ci.yml)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
+
+## Contributor
+
+Initially started by President of SPARCS in 2022 [Seungbin Oh](https://github.com/sboh1214) with ❤️
+
+## How to develop
 
 ### Installation
 
@@ -38,7 +44,7 @@ npm run build
 npm run deploy
 ```
 
-### TODO
+## TODO
 
 - contact(<staff@sparcs.org>) 빠짐
 - 멤버 소개 빠짐
