@@ -278,7 +278,7 @@ sleep infinity;
     - Login Callback URL: `https://<닉네임>.newaradx.sparcs.org/api/users/sso_login_callback`
 2. PM님께 전달받은 \<(1) 키파일 내용\>과 \<(2) ssh 포트번호\>, \<(3) db 포트번호\>를 가지고 ssh와 vscode, datagrip 세팅을 진행
 3. `make run` 실행 후, 초기 db 세팅
-4. `https://\<닉네임\>.newaradx.sparcs.org` 에서 자유롭게 개발 가능!
+4. `https://<닉네임>.newaradx.sparcs.org` 에서 자유롭게 개발 가능!
 
 **정말 간단해졌다!**
 

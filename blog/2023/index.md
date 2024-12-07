@@ -16,7 +16,7 @@ Gitops 환경을 구성하기 위해서는 선언적 인프라(Declarative Infra
 이를 위해 상태 저장소(Config Repository) 를 구성하는것이 일반적이며, 상태 저장소에는 인프라의 현 상태를 정의하는 선언적인 코드들이 관리됩니다.
 
 ![GitOps Principles and Workflows Every Team Should Know | Rafay](https://rafay.co/wp-content/uploads/2021/11/GitOpsDiagram-v1-1024x638.jpg)
-\<이미지 출처 : [https://rafay.co]\>
+\<이미지 출처 : [https://rafay.co](https://rafay.co)\>
 ### Stack for Gitops
 
 Gitops를 구성하기 위해 필요한 요소는 크게 3가지로 나눌 수 있습니다. 
