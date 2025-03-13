@@ -35,20 +35,20 @@ Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이
 
 ## 발표 자료
 
-- [2023년 가을학기 Taxi Development 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694070420688.pdf) / 김건-suwon
-- [2023년 가을학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694070332311.pdf) / 김건-suwon, 손성민-happycastle
-- [2023년 여름학기 Taxi App 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/happycastle_1694070237984.pdf) / 손성민-happycastle
-- [2023년 여름학기 Taxi Backend 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/won_1694070139397.pdf) / 최동원-won
-- [2023년 여름학기 Taxi Infra 온보딩 세미나](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/macintosh_1694070061877.pdf) / 정상-macintosh
-- [2023년 봄학기 SPARCS 종강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694069762083.pdf) / 김건-suwon
-- [2023년 봄학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1694069587483.pdf) / 김건-suwon
-- [2022년 가을학기 Taxi Intern Project](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/won_1682522258809.pptx) / 최동원-won
-- [2022년 가을학기 SPARCS 종강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1682522169035.pdf) / 김건-suwon
-- [2022년 가을학기 SPARCS Homecoming](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/agent%2C+andy%2C+macintosh_1682521983214.pdf) / 예상우-andy, 최지헌-agent, 정상-macintosh
-- [2022년 가을학기 SPARCS 개강총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1682521842595.pdf) / 김건-suwon
-- [2022년 봄학기 Taxi Intern Project](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/andy_1659942777418.pptx) / 예상우-andy
-- [2022년 봄학기 SPARCS 임시총회](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/suwon_1660753366898.pdf) / 김건-suwon
-- [2021년 가을학기 SPARCS Homecoming](https://s3.ap-northeast-2.amazonaws.com/sparcs.home/stitch_1637422019377.pdf) / 이채영-stitch
+- [2023년 가을학기 Taxi Development 온보딩 세미나](https://home.cdn.sparcs.org/suwon_1694070420688.pdf) / 김건-suwon
+- [2023년 가을학기 SPARCS 개강총회](https://home.cdn.sparcs.org/suwon_1694070332311.pdf) / 김건-suwon, 손성민-happycastle
+- [2023년 여름학기 Taxi App 온보딩 세미나](https://home.cdn.sparcs.org/happycastle_1694070237984.pdf) / 손성민-happycastle
+- [2023년 여름학기 Taxi Backend 온보딩 세미나](https://home.cdn.sparcs.org/won_1694070139397.pdf) / 최동원-won
+- [2023년 여름학기 Taxi Infra 온보딩 세미나](https://home.cdn.sparcs.org/macintosh_1694070061877.pdf) / 정상-macintosh
+- [2023년 봄학기 SPARCS 종강총회](https://home.cdn.sparcs.org/suwon_1694069762083.pdf) / 김건-suwon
+- [2023년 봄학기 SPARCS 개강총회](https://home.cdn.sparcs.org/suwon_1694069587483.pdf) / 김건-suwon
+- [2022년 가을학기 Taxi Intern Project](https://home.cdn.sparcs.org/won_1682522258809.pptx) / 최동원-won
+- [2022년 가을학기 SPARCS 종강총회](https://home.cdn.sparcs.org/suwon_1682522169035.pdf) / 김건-suwon
+- [2022년 가을학기 SPARCS Homecoming](https://home.cdn.sparcs.org/agent%2C+andy%2C+macintosh_1682521983214.pdf) / 예상우-andy, 최지헌-agent, 정상-macintosh
+- [2022년 가을학기 SPARCS 개강총회](https://home.cdn.sparcs.org/suwon_1682521842595.pdf) / 김건-suwon
+- [2022년 봄학기 Taxi Intern Project](https://home.cdn.sparcs.org/andy_1659942777418.pptx) / 예상우-andy
+- [2022년 봄학기 SPARCS 임시총회](https://home.cdn.sparcs.org/suwon_1660753366898.pdf) / 김건-suwon
+- [2021년 가을학기 SPARCS Homecoming](https://home.cdn.sparcs.org/stitch_1637422019377.pdf) / 이채영-stitch
 
 ## 협업
 
