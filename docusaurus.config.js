@@ -118,11 +118,11 @@ const config = {
               },
               {
                 label: 'Ara',
-                href: 'https://ara.kaist.ac.kr',
+                href: 'https://newara.sparcs.org',
               },
               {
                 label: 'OTL',
-                href: 'https://otl.kaist.ac.kr',
+                href: 'https://otl.sparcs.org',
               },
               {
                 label: 'Taxi',

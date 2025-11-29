@@ -4,7 +4,7 @@ import ProjectLogo from '@site/src/components/ProjectLogo';
 
 <ProjectLogo
     name="Ara"
-    url="https://ara.kaist.ac.kr"
+    url="https://newara.sparcs.org"
     catchphrase="Ara, KAIST's official community service"
 />
 
