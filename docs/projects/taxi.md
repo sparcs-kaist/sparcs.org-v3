@@ -54,7 +54,7 @@ Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이
 
 - 매주 화요일, 목요일 오후 9시 ~ 12시에 회의 및 공동 코딩을 진행합니다.
 - 대면 회의는 교양분관 SPARCS 동방에서, 비대면 회의는 Discord에서 진행됩니다.
-- Slack을 통해 공지, 질문, 아이디어 제안, Github Bot, 자동배포 봇, Notion Bot 등을 관리합니니다.
+- Slack을 통해 공지, 질문, 아이디어 제안, GitHub Bot, 자동배포 봇, Notion Bot 등을 관리합니니다.
 - Notion으로 Coding Rules와 Coding Conventions를 지정하고, 매주 회의록을 작성합니다.
 - [Figma](https://www.figma.com/file/7Y8jsGFupTqruFu636r0Mz/SPARCS-Taxi-Design)로 디자인 작업을 합니다.
 
@@ -63,12 +63,12 @@ Taxi는 2021년 봄학기에 Toy Project로 개발이 시작되었습니다. 이
 1. 회의에서 제시된 아이디어 및 발견된 버그의 문제 해결을 논의합니다.
 2. 기획 후 Figma로 디자인합니다.
 3. 하나의 작업은 여러 Task로 분할될 수 있고, 각 Task들을 팀원들과 분할합니다.
-   - 새로운 Task가 생기면 Template(Issue, bug-report 등)에 맞게 Github Issue를 생성합니다.
-4. Github Pull Request 로 작업 내용을 공유합니다.
+   - 새로운 Task가 생기면 Template(Issue, bug-report 등)에 맞게 GitHub Issue를 생성합니다.
+4. GitHub Pull Request 로 작업 내용을 공유합니다.
    - Template에 맞게 작업한 내용을 설명하여 공유합니다.
 5. Code Review를 통한 팀원들의 피드백을 받습니다.
    - 2개 이상의 approve가 있어야, Merge가 가능합니다.
-6. Github Action으로 Unit & E2E 테스트로 코드를 검증합니다.
+6. GitHub Action으로 Unit & E2E 테스트로 코드를 검증합니다.
 7. 개발용 서비스에 자동 배포 후, 실제 서비스에서 발생할 수 있는 문제를 사전에 확인해 봅니다.
 8. 실제 서비스에 자동 배포합니다.
 

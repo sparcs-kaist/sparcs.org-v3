@@ -96,7 +96,7 @@ const config = {
             title: '연관 사이트',
             items: [
               {
-                label: 'Github',
+                label: 'GitHub',
                 href: 'https://github.com/sparcs-kaist',
               },
               {

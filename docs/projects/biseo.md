@@ -53,7 +53,7 @@ Biseo에서는 특정한 인원이 특정한 개발의 영역을 도맡는 방�
 - **Back-End**:  TypeScript, Express, Socket.IO
 - **Database** : MySQL, Prisma, Redis
 
-### Github 저장소
+### GitHub 저장소
 
 **Biseo v1.0**
 - **Front-End**: https://github.com/sparcs-kaist/biseo-frontend
