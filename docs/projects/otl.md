@@ -4,7 +4,7 @@ import ProjectLogo from '@site/src/components/ProjectLogo';
 
 <ProjectLogo
     name="OTL"
-    url="https://otl.kaist.ac.kr"
+    url="https://otl.sparcs.org"
     catchphrase="Online Timeplanner with Lectures"
 />
 
