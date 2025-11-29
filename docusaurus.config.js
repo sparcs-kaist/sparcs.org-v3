@@ -125,10 +125,6 @@ const config = {
                 href: 'https://otl.kaist.ac.kr',
               },
               {
-                label: 'Zabo',
-                href: 'https://zabo.kaist.ac.kr',
-              },
-              {
                 label: 'Taxi',
                 href: 'https://taxi.sparcs.org',
               },
